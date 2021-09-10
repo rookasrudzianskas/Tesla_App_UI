@@ -7,9 +7,9 @@ const CarItem = () => {
 
     const [locked, setLocked] = useState(false);
     const changeState = (e) => {
-        // setLocked(!locked);
-        console.warn(e);
-        // return locked;
+        setLocked(!locked);
+        // console.warn(e);
+        return locked;
     }
     return (
 
@@ -50,14 +50,13 @@ const CarItem = () => {
                             <Entypo name="key" size={24} color="white" />
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity  onClick={(e) => changeState(e)}>
+                    <TouchableOpacity activeOpacity="0.8" onPress={changeState}>
                         <View style={styles.controlsButton} >
-                            {/*<Text>Rokas</Text>*/}
-                            {/*{locked ? (*/}
-                                <Feather name="unlock" size={24}color="white" />
-                            {/*// ): (*/}
-                            {/*    // <Feather name="lock" size={24} color="white" />*/}
-                            {/*// )}*/}
+                            {locked ? (
+                                <Feather name="lock" size={24} color="white" />
+                            ): (
+                                <Feather name="unlock" size={24} color="white" />
+                            )}
                         </View>
                     </TouchableOpacity>
                 </View>
