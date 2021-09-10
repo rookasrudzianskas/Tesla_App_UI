@@ -51,6 +51,10 @@ const styles = StyleSheet.create({
         color: 'white',
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    controls: {
+        display: 'flex',
+        flexDirection: 'row',
     }
 });
 

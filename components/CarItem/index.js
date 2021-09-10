@@ -33,15 +33,17 @@ const CarItem = () => {
             {/*    control icons*/}
 
                 <View style={styles.controls}>
-                    <MaterialCommunityIcons name="fan" size={24} color="white" />
-                </View>
+                    <View style={styles.controlsButton}>
+                        <MaterialCommunityIcons name="fan" size={24} color="white" />
+                    </View>
 
-                <View style={styles.controls}>
-                    <Entypo name="key" size={24} color="white" />
-                </View>
+                    <View style={styles.controlsButton}>
+                        <Entypo name="key" size={24} color="white" />
+                    </View>
 
-                <View style={styles.controls}>
-                    <Feather name="lock" size={24} color="white" />
+                    <View style={styles.controlsButton}>
+                        <Feather name="lock" size={24} color="white" />
+                    </View>
                 </View>
 
             </ImageBackground>
