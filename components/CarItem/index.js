@@ -1,6 +1,7 @@
 import React from 'react';
 import {Text, View} from "react-native";
 import styles from "./style.js";
+import {Foundation, Octicons} from "@expo/vector-icons";
 
 const CarItem = () => {
     return (
@@ -8,9 +9,9 @@ const CarItem = () => {
         <View style={styles.carContainer}>
             {/*Header in here*/}
             <View style={styles.header}>
-                <Text>Settings</Text>
+                <Octicons name="gear" size={24} color="white" />
                 <Text>RokasMobile</Text>
-                <Text>Surprise</Text>
+                <Foundation name="shopping-bag" size={24} color="white" />
             </View>
         </View>
     );
