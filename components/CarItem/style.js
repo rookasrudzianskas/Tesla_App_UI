@@ -20,7 +20,12 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         alignItems: 'center',
         justifyContent: 'center',
-
+    },
+    icon: {
+        // color: 'white',
+    },
+    backgroundImage: {
+        width: '100%',
     }
 });
 
