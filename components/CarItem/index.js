@@ -4,6 +4,8 @@ import styles from "./style.js";
 import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octicons} from "@expo/vector-icons";
 
 const CarItem = () => {
+
+    const []
     return (
 
         <View style={styles.carContainer}>
