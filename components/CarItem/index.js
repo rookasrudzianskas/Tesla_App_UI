@@ -23,7 +23,7 @@ const CarItem = () => {
             {/*    status*/}
 
                 <View style={styles.status}>
-                    <Text style={{color: 'white'}}>Parked</Text>
+                    <Text style={{color: 'white', fontSize: 20}}>Parked</Text>
                 </View>
             </ImageBackground>
         </View>
