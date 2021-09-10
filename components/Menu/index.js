@@ -13,7 +13,7 @@ const Menu = () => {
                     <Text style={styles.menuText}>Media</Text>
                 </View>
 
-                <Feather name="chevron-right" size={24} color="white" />
+                <Feather name="chevron-right" size={24} color="gray" />
             </View>
         </View>
     );
