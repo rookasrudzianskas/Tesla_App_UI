@@ -2,7 +2,8 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
     menuItems: {
-        marginHorizontal: 10,
+        marginHorizontal: 20,
+        marginVertical: 20,
     },
     menuRow: {
         flexDirection: 'row',
