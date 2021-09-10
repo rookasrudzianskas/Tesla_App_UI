@@ -14,6 +14,9 @@ const Menu = () => {
 
                             <View style={styles.menuTextBox}>
                                 <Text style={styles.menuText}>{item.title}</Text>
+                                {item.subTitle && (
+                                    <Text style={{color: 'gray', marginLeft: 15, marginTop: 3,}}>{item.subTitle}</Text>
+                                )}
                             </View>
 
                             <Feather name="chevron-right" size={24} color="gray" />
