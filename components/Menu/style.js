@@ -4,6 +4,9 @@ const styles = StyleSheet.create({
     menuItems: {
 
     },
+    menuRow: {
+
+    },
 
 });
 
