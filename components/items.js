@@ -3,55 +3,55 @@ import { Entypo } from '@expo/vector-icons';
 const items = [
     {
       id: 1,
-      icon: music,
+      icon: "music",
       title: "Media",
     },
     {
       id: 2,
-      icon: clock,
+      icon: "clock",
       title: "Software Updates",
       subTitle: "Approximate time to install: 45 min"
     },
     {
       id: 3,
-      icon: music,
+      icon: "music",
       title: "Climate",
       subTitle: "20°F"
     },
     {
       id: 4,
-      icon: music,
+      icon: "music",
       title: "Controls",
     },
     {
       id: 5,
-      icon: music,
+      icon: "music",
       title: "Charging",
     },
     {
       id: 6,
-      icon: music,
+      icon: "music",
       title: "Location "
     },
     {
       id: 7,
-      icon: music,
+      icon: "music",
       title: "Upgrades "
     },
     {
       id: 8,
-      icon: music,
+      icon: "music",
       title: "Phone Key ",
       subTitle: "Disconnected"
     },
     {
       id: 9,
-      icon: music,
+      icon: "music",
       title: "Services "
     },
     {
       id: 11,
-      icon: music,
+      icon: "music",
       title: "Roadside assistance "
     },
 ];

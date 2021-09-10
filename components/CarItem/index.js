@@ -3,6 +3,7 @@ import {Text, View, ImageBackground, Image, TouchableOpacity} from "react-native
 import styles from "./style.js";
 import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octicons} from "@expo/vector-icons";
 import Menu from "../Menu";
+import items from "../items";
 
 const CarItem = () => {
 
