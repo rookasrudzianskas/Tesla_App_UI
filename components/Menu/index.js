@@ -5,7 +5,7 @@ import styles from "./style";
 const Menu = () => {
     return (
         <View style={styles.menuItems}>
-            <Text>Something</Text>
+
         </View>
     );
 };
