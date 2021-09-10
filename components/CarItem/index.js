@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Text, View, ImageBackground, Image, TouchableOpacity} from "react-native";
 import styles from "./style.js";
 import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octicons} from "@expo/vector-icons";
 
 const CarItem = () => {
 
-    const []
+    const [locked, setLocked] = useState(false);
+    const changeState = () => {
+        // setLocked(!locked);
+        console.warn("Something");
+        // return locked;
+    }
     return (
 
         <View style={styles.carContainer}>
@@ -45,9 +50,13 @@ const CarItem = () => {
                             <Entypo name="key" size={24} color="white" />
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity activeOpacity="0.8">
-                        <View style={styles.controlsButton}>
-                            <Feather name="lock" size={24} color="white" />
+                    <TouchableOpacity activeOpacity="0.8"  onClick={changeState}>
+                        <View style={styles.controlsButton} >
+                            {/*{locked ? (*/}
+                                <Feather name="unlock" size={24}color="white" />
+                            {/*// ): (*/}
+                            {/*    // <Feather name="lock" size={24} color="white" />*/}
+                            {/*// )}*/}
                         </View>
                     </TouchableOpacity>
                 </View>
