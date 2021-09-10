@@ -5,7 +5,12 @@ import styles from "./style.js";
 const CarItem = () => {
     return (
         <View>
-            <Text>Rokas</Text>
+            {/*Header in here*/}
+            <View>
+                <Text>Settings</Text>
+                <Text>RokasMobile</Text>
+                <Text>Surprise</Text>
+            </View>
         </View>
     );
 };
