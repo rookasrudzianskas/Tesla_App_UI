@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Text, View, ImageBackground, Image, TouchableOpacity} from "react-native";
 import styles from "./style.js";
 import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octicons} from "@expo/vector-icons";
+import Menu from "../Menu";
 
 const CarItem = () => {
 
@@ -59,6 +60,10 @@ const CarItem = () => {
                             )}
                         </View>
                     </TouchableOpacity>
+                </View>
+
+                <View>
+                    <Menu />
                 </View>
 
             </ImageBackground>
