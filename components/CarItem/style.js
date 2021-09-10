@@ -49,6 +49,8 @@ const styles = StyleSheet.create({
     },
     status: {
         color: 'white',
+        alignItems: 'center',
+        justifyContent: 'center',
     }
 });
 
