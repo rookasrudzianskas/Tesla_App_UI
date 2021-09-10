@@ -50,12 +50,25 @@ const styles = StyleSheet.create({
     status: {
         color: 'white',
         alignItems: 'center',
+        marginBottom: 200,
         justifyContent: 'center',
     },
     controls: {
         display: 'flex',
         flexDirection: 'row',
-    }
+        alignItems: 'center',
+        justifyContent: 'center',
+
+    },
+    controlsButton: {
+        borderWidth: 1,
+        borderColor: 'white',
+        borderRadius: 50,
+        padding: 18,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginHorizontal: 10,
+    },
 });
 
 export default styles;
