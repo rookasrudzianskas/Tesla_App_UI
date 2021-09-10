@@ -20,7 +20,7 @@ const items = [
     },
     {
       id: 4,
-      icon: "music",
+        icon: "clock",
       title: "Controls",
     },
     {
@@ -30,7 +30,7 @@ const items = [
     },
     {
       id: 6,
-      icon: "music",
+        icon: "clock",
       title: "Location "
     },
     {
@@ -40,7 +40,7 @@ const items = [
     },
     {
       id: 8,
-      icon: "music",
+        icon: "clock",
       title: "Phone Key ",
       subTitle: "Disconnected"
     },
@@ -51,7 +51,7 @@ const items = [
     },
     {
       id: 11,
-      icon: "music",
+        icon: "clock",
       title: "Roadside assistance "
     },
 ];

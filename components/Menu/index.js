@@ -10,10 +10,10 @@ const Menu = () => {
                 {items.map(item => (
                 <TouchableOpacity key={item.id} activeOpacity="0.8">
                         <View style={styles.menuRow}>
-                            <Entypo name={`controller-next`} size={24} color="white" />
+                            <Entypo name={`${item.icon}`} size={24} color="white" />
 
                             <View style={styles.menuTextBox}>
-                                <Text style={styles.menuText}>Media</Text>
+                                <Text style={styles.menuText}>{item.title}</Text>
                             </View>
 
                             <Feather name="chevron-right" size={24} color="gray" />
