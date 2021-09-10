@@ -10,7 +10,7 @@ const CarItem = () => {
             {/*Header in here*/}
             <View style={styles.header}>
                 <Octicons name="gear" size={24} color="white" />
-                <Text>RokasMobile</Text>
+                <Text style={styles.textColor}>RokasMobile</Text>
                 <Foundation name="shopping-bag" size={24} color="white" />
             </View>
         </View>

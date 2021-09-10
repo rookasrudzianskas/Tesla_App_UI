@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     carContainer: {
         width: '100%',
         height: '100%',
-        backgroundColor: 'orange'
+        backgroundColor: 'black'
     },
     header: {
         marginTop: 50,
@@ -14,6 +14,10 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         alignItems: 'center',
     },
+    textColor: {
+        color: 'white',
+
+    }
 });
 
 export default styles;
