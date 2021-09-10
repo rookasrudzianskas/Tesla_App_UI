@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     },
     menuText: {
         color: 'white',
-        fontSize: 16,
+        fontSize: 18,
         fontWeight: 'bold',
         marginLeft: 15,
     }

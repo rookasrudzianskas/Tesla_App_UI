@@ -10,16 +10,16 @@ const Menu = () => {
                 {items.map(item => (
                 <TouchableOpacity key={item.id} activeOpacity="0.8">
                         <View style={styles.menuRow}>
-                            <Entypo name={`${item.icon}`} size={24} color="white" />
+                            <Entypo name={`${item.icon}`} size={30} color="white" />
 
                             <View style={styles.menuTextBox}>
                                 <Text style={styles.menuText}>{item.title}</Text>
                                 {item.subTitle && (
-                                    <Text style={{color: 'gray', marginLeft: 15, marginTop: 3,}}>{item.subTitle}</Text>
+                                    <Text style={{color: 'gray', marginLeft: 15, marginTop: 3, fontSize: 17}}>{item.subTitle}</Text>
                                 )}
                             </View>
 
-                            <Feather name="chevron-right" size={24} color="gray" />
+                            <Feather name="chevron-right" size={30} color="gray" />
                         </View>
                 </TouchableOpacity>
                     ))}
