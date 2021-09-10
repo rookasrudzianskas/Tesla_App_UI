@@ -40,7 +40,7 @@ const CarItem = () => {
                 </View>
 
             {/*    control icons*/}
-
+            <ScrollView>
                 <View style={styles.controls}>
                     <TouchableOpacity activeOpacity="0.8">
                         <View style={styles.controlsButton}>
@@ -63,9 +63,10 @@ const CarItem = () => {
                     </TouchableOpacity>
                 </View>
 
-                <ScrollView>
+                <View>
                     <Menu />
-                </ScrollView>
+                </View>
+            </ScrollView>
 
             </ImageBackground>
         </View>
