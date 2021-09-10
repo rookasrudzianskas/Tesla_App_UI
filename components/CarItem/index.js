@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from "react-native";
 import styles from "./style.js";
-import {Foundation, Octicons} from "@expo/vector-icons";
+import {FontAwesome5, Foundation, Octicons} from "@expo/vector-icons";
 
 const CarItem = () => {
     return (
@@ -10,8 +10,8 @@ const CarItem = () => {
             {/*Header in here*/}
             <View style={styles.header}>
                 <Octicons name="gear" size={24} color="white" />
-                <Text style={styles.textColor}>RokasMobile</Text>
-                <Foundation name="shopping-bag" size={24} color="white" />
+                <Text style={styles.headerTitle}>RokasMobile</Text>
+                <FontAwesome5 name="toolbox" size={24} color="white" />
             </View>
         </View>
     );

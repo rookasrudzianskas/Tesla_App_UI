@@ -14,8 +14,12 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         alignItems: 'center',
     },
-    textColor: {
+    headerTitle: {
         color: 'white',
+        fontSize: 16,
+        fontWeight: 'bold',
+        alignItems: 'center',
+        justifyContent: 'center',
 
     }
 });
