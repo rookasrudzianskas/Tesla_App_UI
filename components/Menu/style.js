@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     menuRow: {
         flexDirection: 'row',
         alignItems: 'center',
+        marginTop: 15,
     },
 
     menuTextBox: {
@@ -15,6 +16,8 @@ const styles = StyleSheet.create({
     },
     menuText: {
         color: 'white',
+        fontSize: 16,
+        fontWeight: 'bold',
     }
 
 });
