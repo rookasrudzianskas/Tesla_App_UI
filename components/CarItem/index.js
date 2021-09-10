@@ -6,9 +6,9 @@ import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octic
 const CarItem = () => {
 
     const [locked, setLocked] = useState(false);
-    const changeState = () => {
+    const changeState = (e) => {
         // setLocked(!locked);
-        console.warn("Something");
+        console.warn(e);
         // return locked;
     }
     return (
@@ -50,8 +50,9 @@ const CarItem = () => {
                             <Entypo name="key" size={24} color="white" />
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity activeOpacity="0.8"  onClick={changeState}>
+                    <TouchableOpacity  onClick={(e) => changeState(e)}>
                         <View style={styles.controlsButton} >
+                            {/*<Text>Rokas</Text>*/}
                             {/*{locked ? (*/}
                                 <Feather name="unlock" size={24}color="white" />
                             {/*// ): (*/}
