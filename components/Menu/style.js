@@ -8,6 +8,13 @@ const styles = StyleSheet.create({
 
     },
 
+    menuTextBox: {
+
+    },
+    menuText: {
+        color: 'white',
+    }
+
 });
 
 export default styles;
