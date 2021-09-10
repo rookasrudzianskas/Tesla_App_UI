@@ -4,7 +4,7 @@ import styles from "./style.js";
 
 const CarItem = () => {
     return (
-        <View>
+        <View style={styles.carContainer}>
             {/*Header in here*/}
             <View>
                 <Text>Settings</Text>
