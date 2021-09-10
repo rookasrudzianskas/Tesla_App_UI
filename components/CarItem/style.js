@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     status: {
         color: 'white',
         alignItems: 'center',
-        marginBottom: 200,
+        marginBottom: 175,
         justifyContent: 'center',
     },
     controls: {
