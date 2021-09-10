@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, ImageBackground, Image, TouchableOpacity} from "react-native";
 import styles from "./style.js";
-import {FontAwesome5, Foundation, Octicons} from "@expo/vector-icons";
+import {Entypo, Feather, FontAwesome5, Foundation, MaterialCommunityIcons, Octicons} from "@expo/vector-icons";
 
 const CarItem = () => {
     return (
@@ -29,6 +29,21 @@ const CarItem = () => {
                 <View style={styles.status}>
                     <Text style={{color: 'white', fontSize: 20, fontWeight: 'bold', marginTop: 10,}}>Parked</Text>
                 </View>
+
+            {/*    control icons*/}
+
+                <View style={styles.controls}>
+                    <MaterialCommunityIcons name="fan" size={24} color="white" />
+                </View>
+
+                <View style={styles.controls}>
+                    <Entypo name="key" size={24} color="white" />
+                </View>
+
+                <View style={styles.controls}>
+                    <Feather name="lock" size={24} color="white" />
+                </View>
+
             </ImageBackground>
         </View>
     );
